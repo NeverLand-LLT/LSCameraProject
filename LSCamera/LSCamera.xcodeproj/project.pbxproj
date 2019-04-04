@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BBD45BFC95767EB77BFDD62 /* libPods-LSCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B33139A962DF72953AD36696 /* libPods-LSCamera.a */; };
+		A729323A2255E3500066766D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A72932392255E3500066766D /* AppDelegate.m */; };
+		A729323D2255E3500066766D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A729323C2255E3500066766D /* ViewController.m */; };
+		A72932402255E3500066766D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A729323E2255E3500066766D /* Main.storyboard */; };
+		A72932422255E3520066766D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72932412255E3520066766D /* Assets.xcassets */; };
+		A72932452255E3520066766D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72932432255E3520066766D /* LaunchScreen.storyboard */; };
+		A72932482255E3520066766D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A72932472255E3520066766D /* main.m */; };
+		A729325C2255E8010066766D /* LSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A729325B2255E8010066766D /* LSCameraViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7054DDDB58D7A5B32249CC53 /* Pods-LSCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSCamera/Pods-LSCamera.release.xcconfig"; sourceTree = "<group>"; };
+		A2FAC2C032DCF6DC670DE02D /* Pods-LSCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSCamera/Pods-LSCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		A72932352255E3500066766D /* LSCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72932382255E3500066766D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A72932392255E3500066766D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A729323B2255E3500066766D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A729323C2255E3500066766D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A729323F2255E3500066766D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A72932412255E3520066766D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A72932442255E3520066766D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A72932462255E3520066766D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72932472255E3520066766D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A729325A2255E8010066766D /* LSCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCameraViewController.h; sourceTree = "<group>"; };
+		A729325B2255E8010066766D /* LSCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCameraViewController.m; sourceTree = "<group>"; };
+		B33139A962DF72953AD36696 /* libPods-LSCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A72932322255E3500066766D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBD45BFC95767EB77BFDD62 /* libPods-LSCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBC23B6F8B8116E99CA0CE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B33139A962DF72953AD36696 /* libPods-LSCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DD71B92716CF23C43963C5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAC2C032DCF6DC670DE02D /* Pods-LSCamera.debug.xcconfig */,
+				7054DDDB58D7A5B32249CC53 /* Pods-LSCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A729322C2255E3500066766D = {
+			isa = PBXGroup;
+			children = (
+				A72932372255E3500066766D /* LSCamera */,
+				A72932362255E3500066766D /* Products */,
+				8DD71B92716CF23C43963C5B /* Pods */,
+				4CBC23B6F8B8116E99CA0CE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A72932362255E3500066766D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A72932352255E3500066766D /* LSCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A72932372255E3500066766D /* LSCamera */ = {
+			isa = PBXGroup;
+			children = (
+				A72932522255E5210066766D /* Resources */,
+				A729324E2255E4C20066766D /* Constants */,
+				A729324F2255E4D30066766D /* Vendors */,
+				A72932512255E50E0066766D /* Modules */,
+				A72932502255E4ED0066766D /* Utilities */,
+				A72932382255E3500066766D /* AppDelegate.h */,
+				A72932392255E3500066766D /* AppDelegate.m */,
+				A729323B2255E3500066766D /* ViewController.h */,
+				A729323C2255E3500066766D /* ViewController.m */,
+				A729323E2255E3500066766D /* Main.storyboard */,
+				A72932412255E3520066766D /* Assets.xcassets */,
+				A72932432255E3520066766D /* LaunchScreen.storyboard */,
+				A72932462255E3520066766D /* Info.plist */,
+				A72932592255E5BF0066766D /* SupportingFiles */,
+			);
+			path = LSCamera;
+			sourceTree = "<group>";
+		};
+		A729324E2255E4C20066766D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A729324F2255E4D30066766D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		A72932502255E4ED0066766D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A72932562255E5750066766D /* Math */,
+				A72932552255E56C0066766D /* Categorys */,
+				A72932542255E5640066766D /* Storage */,
+				A72932532255E55F0066766D /* Base */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A72932512255E50E0066766D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A72932582255E5AA0066766D /* PublicModule */,
+				A72932572255E57B0066766D /* MainCamera */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A72932522255E5210066766D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A72932532255E55F0066766D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A72932542255E5640066766D /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		A72932552255E56C0066766D /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		A72932562255E5750066766D /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		A72932572255E57B0066766D /* MainCamera */ = {
+			isa = PBXGroup;
+			children = (
+				A729325A2255E8010066766D /* LSCameraViewController.h */,
+				A729325B2255E8010066766D /* LSCameraViewController.m */,
+			);
+			path = MainCamera;
+			sourceTree = "<group>";
+		};
+		A72932582255E5AA0066766D /* PublicModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PublicModule;
+			sourceTree = "<group>";
+		};
+		A72932592255E5BF0066766D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A72932472255E3520066766D /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A72932342255E3500066766D /* LSCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A729324B2255E3520066766D /* Build configuration list for PBXNativeTarget "LSCamera" */;
+			buildPhases = (
+				07431F2B2B720F55E3646049 /* [CP] Check Pods Manifest.lock */,
+				A72932312255E3500066766D /* Sources */,
+				A72932322255E3500066766D /* Frameworks */,
+				A72932332255E3500066766D /* Resources */,
+				9F778189A2056EFEB61E07EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSCamera;
+			productName = LSCamera;
+			productReference = A72932352255E3500066766D /* LSCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A729322D2255E3500066766D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Melody;
+				TargetAttributes = {
+					A72932342255E3500066766D = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = A72932302255E3500066766D /* Build configuration list for PBXProject "LSCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A729322C2255E3500066766D;
+			productRefGroup = A72932362255E3500066766D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A72932342255E3500066766D /* LSCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A72932332255E3500066766D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72932452255E3520066766D /* LaunchScreen.storyboard in Resources */,
+				A72932422255E3520066766D /* Assets.xcassets in Resources */,
+				A72932402255E3500066766D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07431F2B2B720F55E3646049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F778189A2056EFEB61E07EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LSCamera/Pods-LSCamera-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSCamera/Pods-LSCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A72932312255E3500066766D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A729323D2255E3500066766D /* ViewController.m in Sources */,
+				A72932482255E3520066766D /* main.m in Sources */,
+				A729325C2255E8010066766D /* LSCameraViewController.m in Sources */,
+				A729323A2255E3500066766D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A729323E2255E3500066766D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A729323F2255E3500066766D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A72932432255E3520066766D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72932442255E3520066766D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A72932492255E3520066766D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A729324A2255E3520066766D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A729324C2255E3520066766D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FAC2C032DCF6DC670DE02D /* Pods-LSCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC4Q56U472;
+				INFOPLIST_FILE = LSCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lyz.LSCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A729324D2255E3520066766D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7054DDDB58D7A5B32249CC53 /* Pods-LSCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC4Q56U472;
+				INFOPLIST_FILE = LSCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lyz.LSCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A72932302255E3500066766D /* Build configuration list for PBXProject "LSCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72932492255E3520066766D /* Debug */,
+				A729324A2255E3520066766D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A729324B2255E3520066766D /* Build configuration list for PBXNativeTarget "LSCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A729324C2255E3520066766D /* Debug */,
+				A729324D2255E3520066766D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A729322D2255E3500066766D /* Project object */;
+}
