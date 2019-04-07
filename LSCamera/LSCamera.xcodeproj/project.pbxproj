@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7BBD45BFC95767EB77BFDD62 /* libPods-LSCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B33139A962DF72953AD36696 /* libPods-LSCamera.a */; };
+		A72797912257102200C72F60 /* LSKView.m in Sources */ = {isa = PBXBuildFile; fileRef = A72797902257102200C72F60 /* LSKView.m */; };
+		A727979522571EB000C72F60 /* LSKCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = A727979422571EB000C72F60 /* LSKCamera.m */; };
+		A72797982257890D00C72F60 /* LSKCameraSwitchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A72797972257890D00C72F60 /* LSKCameraSwitchFilter.m */; };
 		A729323A2255E3500066766D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A72932392255E3500066766D /* AppDelegate.m */; };
 		A729323D2255E3500066766D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A729323C2255E3500066766D /* ViewController.m */; };
 		A72932402255E3500066766D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A729323E2255E3500066766D /* Main.storyboard */; };
@@ -15,11 +18,19 @@
 		A72932452255E3520066766D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72932432255E3520066766D /* LaunchScreen.storyboard */; };
 		A72932482255E3520066766D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A72932472255E3520066766D /* main.m */; };
 		A729325C2255E8010066766D /* LSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A729325B2255E8010066766D /* LSCameraViewController.m */; };
+		A73876662259E4740070D4A4 /* LSKFilterPipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = A73876652259E4740070D4A4 /* LSKFilterPipeline.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7054DDDB58D7A5B32249CC53 /* Pods-LSCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSCamera/Pods-LSCamera.release.xcconfig"; sourceTree = "<group>"; };
 		A2FAC2C032DCF6DC670DE02D /* Pods-LSCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSCamera/Pods-LSCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		A727978F2257102200C72F60 /* LSKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSKView.h; sourceTree = "<group>"; };
+		A72797902257102200C72F60 /* LSKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSKView.m; sourceTree = "<group>"; };
+		A72797922257123600C72F60 /* LSKCameraHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSKCameraHeader.h; sourceTree = "<group>"; };
+		A727979322571EB000C72F60 /* LSKCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSKCamera.h; sourceTree = "<group>"; };
+		A727979422571EB000C72F60 /* LSKCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSKCamera.m; sourceTree = "<group>"; };
+		A72797962257890D00C72F60 /* LSKCameraSwitchFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSKCameraSwitchFilter.h; sourceTree = "<group>"; };
+		A72797972257890D00C72F60 /* LSKCameraSwitchFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSKCameraSwitchFilter.m; sourceTree = "<group>"; };
 		A72932352255E3500066766D /* LSCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72932382255E3500066766D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A72932392255E3500066766D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +43,10 @@
 		A72932472255E3520066766D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A729325A2255E8010066766D /* LSCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCameraViewController.h; sourceTree = "<group>"; };
 		A729325B2255E8010066766D /* LSCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCameraViewController.m; sourceTree = "<group>"; };
+		A729325D2255EC390066766D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A729325E2255EC4F0066766D /* Contants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contants.h; sourceTree = "<group>"; };
+		A73876642259E4740070D4A4 /* LSKFilterPipeline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSKFilterPipeline.h; sourceTree = "<group>"; };
+		A73876652259E4740070D4A4 /* LSKFilterPipeline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSKFilterPipeline.m; sourceTree = "<group>"; };
 		B33139A962DF72953AD36696 /* libPods-LSCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +77,22 @@
 				7054DDDB58D7A5B32249CC53 /* Pods-LSCamera.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A727978E22570FE000C72F60 /* CameraKit */ = {
+			isa = PBXGroup;
+			children = (
+				A72797922257123600C72F60 /* LSKCameraHeader.h */,
+				A727978F2257102200C72F60 /* LSKView.h */,
+				A72797902257102200C72F60 /* LSKView.m */,
+				A727979322571EB000C72F60 /* LSKCamera.h */,
+				A727979422571EB000C72F60 /* LSKCamera.m */,
+				A72797962257890D00C72F60 /* LSKCameraSwitchFilter.h */,
+				A72797972257890D00C72F60 /* LSKCameraSwitchFilter.m */,
+				A73876642259E4740070D4A4 /* LSKFilterPipeline.h */,
+				A73876652259E4740070D4A4 /* LSKFilterPipeline.m */,
+			);
+			path = CameraKit;
 			sourceTree = "<group>";
 		};
 		A729322C2255E3500066766D = {
@@ -96,6 +127,7 @@
 				A729323C2255E3500066766D /* ViewController.m */,
 				A729323E2255E3500066766D /* Main.storyboard */,
 				A72932412255E3520066766D /* Assets.xcassets */,
+				A729325D2255EC390066766D /* PrefixHeader.pch */,
 				A72932432255E3520066766D /* LaunchScreen.storyboard */,
 				A72932462255E3520066766D /* Info.plist */,
 				A72932592255E5BF0066766D /* SupportingFiles */,
@@ -106,6 +138,7 @@
 		A729324E2255E4C20066766D /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				A729325E2255EC4F0066766D /* Contants.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -184,6 +217,7 @@
 		A72932582255E5AA0066766D /* PublicModule */ = {
 			isa = PBXGroup;
 			children = (
+				A727978E22570FE000C72F60 /* CameraKit */,
 			);
 			path = PublicModule;
 			sourceTree = "<group>";
@@ -325,6 +359,10 @@
 			files = (
 				A729323D2255E3500066766D /* ViewController.m in Sources */,
 				A72932482255E3520066766D /* main.m in Sources */,
+				A72797982257890D00C72F60 /* LSKCameraSwitchFilter.m in Sources */,
+				A72797912257102200C72F60 /* LSKView.m in Sources */,
+				A73876662259E4740070D4A4 /* LSKFilterPipeline.m in Sources */,
+				A727979522571EB000C72F60 /* LSKCamera.m in Sources */,
 				A729325C2255E8010066766D /* LSCameraViewController.m in Sources */,
 				A729323A2255E3500066766D /* AppDelegate.m in Sources */,
 			);
@@ -470,14 +508,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VC4Q56U472;
+				DEVELOPMENT_TEAM = 8A26V3S962;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = LSCamera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lyz.LSCamera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lyz.LSCameraA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -489,14 +530,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VC4Q56U472;
+				DEVELOPMENT_TEAM = 8A26V3S962;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = LSCamera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lyz.LSCamera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lyz.LSCameraA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

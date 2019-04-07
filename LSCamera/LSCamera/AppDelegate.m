@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LSCameraViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    LSCameraViewController *VC = [[LSCameraViewController alloc] init];
+    UINavigationController *Nav = [[UINavigationController alloc] initWithRootViewController:VC];
+    
+    self.window.rootViewController = Nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
